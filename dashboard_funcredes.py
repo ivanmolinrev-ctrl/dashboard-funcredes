@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 
 # ==============================
 # 🎨 Configuración del Dashboard
@@ -116,5 +115,6 @@ st.download_button(
     file_name=f"{selected_sheet}_filtrado.csv",
     mime="text/csv",
 )
+
 
 
