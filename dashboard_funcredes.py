@@ -116,7 +116,3 @@ st.download_button(
     file_name=f"{selected_sheet}_filtrado.csv",
     mime="text/csv",
 )
-
-
-
-
