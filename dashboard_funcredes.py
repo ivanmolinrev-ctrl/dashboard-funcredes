@@ -21,7 +21,7 @@ st.markdown(
 st.write("---")
 
 # 📂 Cargar el archivo Excel
-excel_file = "EXPERIENCIAS  FUNCREDES - GLOBAL DE LAS AMERICAS...xlsx"
+excel_file = "experiencias_funcredes.xlsx"
 xls = pd.ExcelFile(excel_file)
 sheets = xls.sheet_names
 
@@ -116,3 +116,4 @@ st.download_button(
     file_name=f"{selected_sheet}_filtrado.csv",
     mime="text/csv",
 )
+
